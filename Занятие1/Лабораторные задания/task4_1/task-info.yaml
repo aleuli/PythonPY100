@@ -11,7 +11,7 @@ files:
       offset: 39
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: print(list_1 + list_2)
   text: |
     list_1 = [1, 2, 3]
@@ -25,5 +25,10 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 16 Oct 2021 10:14:02 UTC
+  actual: |
+    [1, 2, 3, 3, 2, 1]
 record: -1
