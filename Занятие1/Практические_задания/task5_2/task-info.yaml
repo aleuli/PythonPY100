@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 13
+    length: 77
     placeholder_text: '...  # TODO кортеж может сам развернуть свои значения по переменным'
     initial_state:
       length: 67
@@ -28,7 +28,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 16 Oct 2021 10:03:26 UTC
+  time: Wed, 20 Oct 2021 15:21:56 UTC
   actual: |
     1 str [1, 2, 3]
 record: -1
