@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 33
-    length: 172
+    length: 84
     placeholder_text: '...  # TODO с помощью методов строки join и split очистить
       строку от лишних пробелов'
     initial_state:
@@ -38,6 +38,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Thu, 21 Oct 2021 15:57:54 UTC
+  time: Sat, 23 Oct 2021 19:38:48 UTC
 record: -1
 post_submission_on_open: true

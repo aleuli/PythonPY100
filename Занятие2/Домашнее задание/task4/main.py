@@ -1,6 +1,6 @@
 if __name__ == "__main__":
     # Write your solution here
-    list_ = [1,2,3,4,5,6,7,8,9,10]
+    list_ = list(range(11))
     a = list_[0]
     b = max(list_)
     print("минимальный элемент", a)
