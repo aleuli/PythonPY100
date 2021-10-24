@@ -1,5 +1,4 @@
 def function(n):
-    n = n
     f = 1
     while n > 1:
         f = f * n
