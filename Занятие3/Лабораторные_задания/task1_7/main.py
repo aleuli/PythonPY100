@@ -3,7 +3,7 @@ def student(a,b,s):
     while 0 < s :
         s += a
         b = b + (b * 0.05)
-        s = s - b
+        s -= b
         m += 1
         print("Я прожил", m,"месяцев")
     return m
