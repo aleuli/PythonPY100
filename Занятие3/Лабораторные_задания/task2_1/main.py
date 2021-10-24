@@ -6,4 +6,4 @@ def task(str1, str2, k):
     return
 
 if __name__ == "__main__":
-    print(task("Hello", "Herry", 3))
+    print(task("Hello", "Herry", 0))

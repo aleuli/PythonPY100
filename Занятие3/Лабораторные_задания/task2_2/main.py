@@ -5,4 +5,4 @@ def palindrom(s):
         print("Не палиндром")
     return s
 if __name__ == "__main__":
-    print(palindrom("AKAA"))
+    print(palindrom("AKA"))
