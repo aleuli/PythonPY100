@@ -1,11 +1,7 @@
-list_ = "жаба  Петр  жук  Клава  машина"
 def slovo():
-
-    while list_ < 5*"":
-        return list_
-
-
-
+    s = list_
+    s = s.split()
+    print(max(s, key=len))
 
 
 
@@ -14,4 +10,8 @@ def slovo():
 if __name__ == "__main__":
     # Write your solution here
     pass
+list_ = "жаба    Петр    жук    Клаваd    машина"
 print(slovo())
+
+
+

@@ -3,7 +3,7 @@ def main():
     vtoroe_chislo = 0
     skolko_chisel = 0
     schetchik = 0
-    while ((pervoe_chislo ** 2) + (vtoroe_chislo ** 2)) in range(0,500):
+    while ((pervoe_chislo ** 2) + (vtoroe_chislo ** 2)) in range(500):
         pervoe_chislo += 1
         print("Первое число", pervoe_chislo)
         vtoroe_chislo += 1

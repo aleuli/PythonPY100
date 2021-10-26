@@ -49,7 +49,6 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 23 Oct 2021 19:33:30 UTC
-  actual: |
-    Минимальный элемент = -1 находится по индексу 6
+  time: Mon, 25 Oct 2021 14:11:52 UTC
+  actual: <no output>
 record: -1
