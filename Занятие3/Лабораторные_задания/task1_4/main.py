@@ -1,13 +1,12 @@
-def function(n):
-    epsilon = 0.0001
-    result = 0
-    e = 1
-    while n < epsilon:
-        shcet = 1 / e
-        e = e / 2
-        return result
-
-
+def task(epsilon = 0.0001):
+    sum_ = 0
+    n = 1
+    item_n = 1 / 2 ** n
+    while item_n >= epsilon:
+        sum_ += item_n
+        n += 1
+        item_n = 1 / 2 ** n
+    return sum_
 
 
 
@@ -15,4 +14,4 @@ def function(n):
 if __name__ == "__main__":
     # Write your solution here
     pass
-print(function(5))
+print(task())
