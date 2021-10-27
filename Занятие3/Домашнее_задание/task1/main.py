@@ -1,15 +1,14 @@
-def poisk():
-    diapazon = list(range(3,13))
+def function( ):
     while True:
-        input_number = int(input("Введите число"))
-        input_number = input_number in diapazon
-        if input_number < 0:
+        chislo = int(input("введи число: "))
+        if not chislo in range(3,14):
+            print("такого числа в последовательности нет")
             break
-        print(diapazon)
-
+    return chislo
 
 
 if __name__ == "__main__":
-    # Write your solution here
-    pass
-print(poisk())
+    print(function( ))
+
+
+

@@ -1,6 +1,6 @@
 def counter():
-    count = 0
-    count = count + 1
+    count_ = 0
+    count = count_ + 1
     return count
 
 
